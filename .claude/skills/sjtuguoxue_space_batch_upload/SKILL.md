@@ -1,5 +1,5 @@
 ---
-name: batch-upload
+name: sjtuguoxue_space_batch_upload
 description: "批量上传诗词：解析用户贴入的非结构化文字，识别每首诗词，提取结构化字段，确认后批量提交到南洋吟游平台 /api/submit/ 审核队列。"
 when_to_use: "批量上传 批量提交 批量导入 上传诗词 上传作品 导入诗歌 贴诗 batch upload poems submit"
 argument-hint: "<粘贴诗词原文>"
