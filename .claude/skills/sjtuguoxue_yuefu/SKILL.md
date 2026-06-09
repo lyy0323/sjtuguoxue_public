@@ -3,7 +3,7 @@ name: sjtuguoxue_yuefu
 version: 1.0.0
 description: |
   乐府部：国学社原创古风音乐部门。提供歌单嵌入、歌曲音频引用和活动页面资源。
-  当用户提到乐府、乐府部、古风音乐、诗以歌、国学社歌曲、
+  当用户提到乐府、乐府部、古风音乐、和诗以歌、国学社歌曲、
   未解忆长安、聚少趁江南、大东、溯流沙 时触发。
 ---
 
@@ -11,7 +11,7 @@ description: |
 
 上海交通大学国学社乐府部，专注原创古风音乐创作与演出。
 
-## 「诗以歌」歌单
+## 「和诗以歌」歌单
 
 网易云音乐歌单，收录乐府部原创作品。
 
@@ -44,23 +44,25 @@ description: |
 
 ## 音频资源
 
-歌曲音频文件托管在 GitHub，可直接引用：
+歌曲音频文件托管在 GitHub，**不建议直接引用**（raw.githubusercontent.com 有 GFW 风险）。需要用音频时建议先下载到本地或上传到自有 CDN。在线使用优先用网易云 iframe 嵌入。
 
 **仓库：** https://github.com/lyy0323/yuefu4anniv/tree/main/assets/audio
 
-| 歌曲 | 音频地址 |
-|------|---------|
-| 大东 | `https://raw.githubusercontent.com/lyy0323/yuefu4anniv/main/assets/audio/大东.m4a` |
-| 未解忆长安 | `https://raw.githubusercontent.com/lyy0323/yuefu4anniv/main/assets/audio/未解忆长安.m4a` |
-| 聚少趁江南 | `https://raw.githubusercontent.com/lyy0323/yuefu4anniv/main/assets/audio/聚少趁江南.m4a` |
-| 来春可拟共兰舟 | `https://raw.githubusercontent.com/lyy0323/yuefu4anniv/main/assets/audio/来春可拟共兰舟.m4a` |
-| 溯流沙 | `https://raw.githubusercontent.com/lyy0323/yuefu4anniv/main/assets/audio/溯流沙.m4a` |
-| 玉蝴蝶·秋梦 | `https://raw.githubusercontent.com/lyy0323/yuefu4anniv/main/assets/audio/玉蝴蝶·秋梦.m4a` |
+| 歌曲 | 文件名 |
+|------|--------|
+| 大东 | `大东.m4a` |
+| 未解忆长安 | `未解忆长安.m4a` |
+| 聚少趁江南 | `聚少趁江南.m4a` |
+| 来春可拟共兰舟 | `来春可拟共兰舟.m4a` |
+| 溯流沙 | `溯流沙.m4a` |
+| 安远 | `安远.mp3` |
 
-HTML 中嵌入音频：
+下载示例：
 
-```html
-<audio controls src="https://raw.githubusercontent.com/lyy0323/yuefu4anniv/main/assets/audio/大东.m4a"></audio>
+```bash
+# 先 clone 或下载，不要直接在 HTML 中引用 raw.githubusercontent.com
+git clone https://github.com/lyy0323/yuefu4anniv.git
+# 音频文件在 assets/audio/ 目录下
 ```
 
 ## 乐府部四周年
