@@ -20,7 +20,7 @@ description: |
 3. 调用生成脚本：
 
 ```bash
-python3 ~/.mavis/skills/gpt-image-2/scripts/generate.py \
+python3 ~/.claude/skills/gpt-image-2/scripts/generate.py \
   --mode <text2img|img2img> \
   --prompt "<用户描述>" \
   --size "<比例>" \
